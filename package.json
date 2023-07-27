@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "jest": "^29.6.2",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "type": "module"
+}

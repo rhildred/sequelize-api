@@ -27,4 +27,11 @@ const UserUpdate = async (req, res)=>{
     res.json(user);
 }
 
-export { UserList, UserDelete, UserCreate, UserUpdate };
+const UserSelect = async (req, res)=>{
+    const id = req.params.id;
+    const users = await User.findAll({where:{id:id}});
+    const user = users[0];
+    res.json(user);
+}
+
+export { UserList, UserDelete, UserCreate, UserUpdate, UserSelect };

@@ -1,9 +1,7 @@
 import express from "express";
+import {UserRoutes} from '../routes/User.js';
 
 const app = express();
-
-app.get("/api", (req, res)=>{
-    res.json({routes:app._router.stack});
-});
-
+app.use(express.json());
+app.use("/api/users", UserRoutes);
 export {app};

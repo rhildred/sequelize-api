@@ -7,7 +7,7 @@ npm test
 npm start
 ```
 
-This is a restful API for a User model. There is a User controller and User routes to the controller. There is a single page html view that consumes the API. I have set this as a bonus assignment for my dynamic websites sections. You can get up to 5 bonus marks for this:
+This is a restful API for a User model. There is a User controller and User routes to the controller. There is a single page html view that consumes the API. I have set this as a bonus assignment for my dynamic websites sections.
 
 |Item|Out of|
 |-|-|
